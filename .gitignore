@@ -1,0 +1,21 @@
+# Jupyter 自动生成的临时文件
+.ipynb_checkpoints/
+
+# Python 缓存文件
+__pycache__/
+*.pyc
+
+# 虚拟环境
+.venv/
+env/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 隐私文件
+.env
+
+# 大型或私人数据文件夹
+data/private/
+data/raw/private/
