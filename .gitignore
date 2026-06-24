@@ -19,3 +19,5 @@ Thumbs.db
 # 大型或私人数据文件夹
 data/private/
 data/raw/private/
+
+week_01_python_pandas/
