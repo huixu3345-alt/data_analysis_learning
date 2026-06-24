@@ -1,0 +1,9 @@
+student_id,name,gender,age,city,math_score,english_score,python_score
+1,Alice,F,20,Tokyo,88,92,95
+2,Bob,M,21,Osaka,76,85,80
+3,Charlie,M,22,Tokyo,90,78,88
+4,Diana,F,20,Nagoya,65,72,70
+5,Eric,M,23,Osaka,95,89,92
+6,Fiona,F,21,Tokyo,82,91,86
+7,George,M,22,Nagoya,70,68,75
+8,Helen,F,23,Osaka,89,94,90

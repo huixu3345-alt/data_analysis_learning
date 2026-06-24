@@ -14,7 +14,7 @@
 ## 本周任务
 
 - [x] Day 1：Python基础
-- [ ] Day 2：创建 students.csv
+- [x] Day 2：创建 students.csv
 - [ ] Day 3：pandas读取CSV
 - [ ] Day 4：筛选、排序、列选择
 - [ ] Day 5：新增列和 groupby
