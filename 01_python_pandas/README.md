@@ -65,7 +65,7 @@ data/students.csv
 * [x] Day 4：筛选、排序、列选择
 * [x] Day 5：新增列和 groupby
 * [x] Day 6：整理 README
-* [ ] Day 7：提交 GitHub 和本周总结
+* [x] Day 7：提交 GitHub 和本周总结
 
 ## 核心学习内容
 
