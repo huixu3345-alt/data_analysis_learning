@@ -9,3 +9,4 @@ student_id,name,class_name,gender,math,english,python,enroll_date
 8,吴十,B,F,89,87,92,2026-01-08
 8,吴十,B,F,89,87,92,2026-01-08
 2,李四,A,F,93,85,86,2026-01-05
+9,成龙,C,F,,130,80,2026-01-05
