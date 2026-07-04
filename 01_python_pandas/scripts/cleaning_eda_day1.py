@@ -19,7 +19,7 @@ print("===== 原始数据前5行 =====")
 print(df.head())
 
 print("\n===== 数据基本信息 =====")
-print(df.info())
+df.info()
 
 print("\n===== 数值字段统计 =====")
 print(df.describe())
