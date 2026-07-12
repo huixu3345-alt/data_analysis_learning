@@ -1,0 +1,13 @@
+﻿field,category,count,percentage
+class_name,A班,6,37.5
+class_name,B班,5,31.25
+class_name,C班,5,31.25
+gender,女,8,50.0
+gender,男,8,50.0
+is_pass,True,15,93.75
+is_pass,False,1,6.25
+enroll_month,2026-03,4,25.0
+enroll_month,nan,4,25.0
+enroll_month,2026-04,3,18.75
+enroll_month,2026-06,3,18.75
+enroll_month,2026-05,2,12.5

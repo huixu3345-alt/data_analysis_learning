@@ -1,0 +1,16 @@
+﻿analysis_type,dimension_1,dimension_2,student_count,avg_score,pass_rate
+class_and_gender,A班,女,4,75.17,75.0
+class_and_gender,A班,男,2,77.5,100.0
+class_and_gender,B班,女,2,88.16,100.0
+class_and_gender,B班,男,3,83.0,100.0
+class_and_gender,C班,女,2,79.91,100.0
+class_and_gender,C班,男,3,85.56,100.0
+month_and_class,2026-03,A班,2,83.5,100.0
+month_and_class,2026-03,B班,2,85.0,100.0
+month_and_class,2026-04,A班,1,85.67,100.0
+month_and_class,2026-04,C班,2,80.16,100.0
+month_and_class,2026-05,A班,1,83.33,100.0
+month_and_class,2026-05,B班,1,96.33,100.0
+month_and_class,2026-06,A班,1,52.67,0.0
+month_and_class,2026-06,B班,1,99.0,100.0
+month_and_class,2026-06,C班,1,89.83,100.0
