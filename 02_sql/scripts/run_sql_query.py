@@ -36,7 +36,7 @@ DATABASE_FILE = (
 
 
 # 修改这个变量，就可以选择要运行的SQL文件
-QUERY_FILE_NAME = "22_day3_practice.sql"
+QUERY_FILE_NAME = "27_month_channel_analysis.sql"
 
 QUERY_FILE = (
     SQL_DIR
