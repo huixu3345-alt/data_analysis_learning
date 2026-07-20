@@ -1,0 +1,51 @@
+WITH monthly_channel_sales AS (
+    SELECT
+        order_month,
+        channel,
+        COUNT(order_id) AS valid_order_count,
+        ROUND(
+            SUM(net_sales),
+            2
+        ) AS total_net_sales
+    FROM sales_orders
+    WHERE
+        order_status = '已完成'
+        AND sales_amount_valid = 1
+        AND order_date IS NOT NULL
+    GROUP BY
+        order_month,
+        channel
+),
+
+channel_comparison AS (
+    SELECT
+        order_month,
+        channel,
+        valid_order_count,
+        total_net_sales,
+
+        LAG(total_net_sales) OVER (
+            PARTITION BY channel
+            ORDER BY order_month
+        ) AS previous_available_month_sales
+
+    FROM monthly_channel_sales
+)
+
+SELECT
+    order_month,
+    channel,
+    valid_order_count,
+    total_net_sales,
+    previous_available_month_sales,
+
+    ROUND(
+        total_net_sales
+        - previous_available_month_sales,
+        2
+    ) AS sales_growth_amount
+
+FROM channel_comparison
+ORDER BY
+    channel,
+    order_month;
