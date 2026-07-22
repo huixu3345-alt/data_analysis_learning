@@ -36,7 +36,7 @@ DATABASE_FILE = (
 
 
 # 修改这个变量，就可以选择要运行的SQL文件
-QUERY_FILE_NAME = "54_cohort_retention.sql"
+QUERY_FILE_NAME = "60_user_segment_validation.sql"
 
 QUERY_FILE = (
     SQL_DIR
