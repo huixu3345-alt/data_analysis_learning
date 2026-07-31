@@ -1,0 +1,3 @@
+﻿scenario,sample_count,correlation
+原始数据,8,0.998
+加入异常点,9,-0.3688
