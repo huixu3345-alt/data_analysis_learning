@@ -1,0 +1,2 @@
+﻿trial_count,success_probability,expected_successes,variance,standard_deviation,probability_exactly_8,probability_at_least_one
+100,0.08,8.0,7.36,2.7129,0.1455,0.9998

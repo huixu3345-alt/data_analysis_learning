@@ -1,0 +1,2 @@
+﻿expected_profit_per_user,expected_profit_per_batch,break_even_successes,profitable_batch_rate,simulated_mean_profit,simulated_std_profit,profit_p05,profit_p50,profit_p95
+1.4,140.0,7,0.6929,138.352,217.267,-180.0,140.0,540.0
