@@ -1,0 +1,4 @@
+﻿sample_type,sample_size,mean_spending,standard_error
+population,100000,179.9832,
+random_sample,10000,178.3678,1.6125
+vip_biased_sample,10000,499.2789,0.4994
