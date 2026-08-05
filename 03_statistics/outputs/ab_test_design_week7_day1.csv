@@ -1,0 +1,10 @@
+﻿design_item,design_value
+business_question,新版结算页能否提高支付转化率
+control_group,旧版结算页
+treatment_group,新版结算页
+experiment_unit,user_id
+randomization,按user_id随机50/50固定分组
+primary_metric,支付独立用户数/曝光独立用户数
+refund_guardrail,退款率增加不超过1个百分点
+error_guardrail,错误率增加不超过0.2个百分点
+exclusions,员工、测试账号、机器人和异常流量

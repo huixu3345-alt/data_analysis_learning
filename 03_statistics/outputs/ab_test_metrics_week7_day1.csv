@@ -1,0 +1,3 @@
+﻿group,exposed_users,paying_users,refund_users,error_users,conversion_rate,refund_rate,error_rate,traffic_share
+A,5000,400,20,50,0.08,0.05,0.01,0.495
+B,5100,459,35,80,0.09,0.0763,0.0157,0.505
