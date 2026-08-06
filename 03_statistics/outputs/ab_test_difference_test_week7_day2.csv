@@ -1,0 +1,2 @@
+﻿rate_difference,difference_standard_error,difference_ci_lower,difference_ci_upper,ci_includes_zero,z_statistic,two_sided_p_value,statistically_significant
+0.01,0.0055,-0.0009,0.0209,True,1.8013,0.0717,False
