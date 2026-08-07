@@ -1,0 +1,4 @@
+﻿scenario,baseline_rate,mde,target_power,required_sample_per_group,group_a_sufficient,group_b_sufficient
+基准方案,0.08,0.01,0.8,12208,False,False
+更小MDE,0.08,0.005,0.8,47528,False,False
+更高统计功效,0.08,0.01,0.9,16343,False,False
