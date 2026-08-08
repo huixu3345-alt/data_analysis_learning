@@ -1,0 +1,6 @@
+﻿experiment_name,data_quality_pass,sample_size_pass,statistical_significance_pass,business_significance_pass,refund_guardrail_pass,error_guardrail_pass,failed_checks,final_decision
+场景1_全部通过,True,True,True,True,True,True,全部通过,具备上线条件，建议先小流量灰度发布
+场景2_统计证据不足,True,False,False,True,True,True,样本量不足；未达到统计显著,继续实验并积累足够样本
+场景3_业务价值不足,True,True,True,False,True,True,业务提升不足,不建议上线，业务收益不足
+场景4_护栏未通过,True,True,True,True,False,True,退款率护栏未通过,暂停上线，调查并修复护栏指标异常
+场景5_数据质量异常,False,True,True,True,True,True,数据质量或SRM未通过,暂停分析，先检查分流、埋点和数据质量
