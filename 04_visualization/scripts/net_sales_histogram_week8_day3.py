@@ -43,6 +43,12 @@ plt.rcParams["axes.unicode_minus"] = False
 
 df = pd.read_csv(DATA_PATH)
 
+
+sales = pd.to_numeric(
+    df["net_sales"],
+    errors="coerce",
+).dropna()
+
 skewness = sales.skew()
 
 print(
@@ -50,14 +56,9 @@ print(
     round(skewness, 4),
 )
 
-sales = pd.to_numeric(
-    df["net_sales"],
-    errors="coerce",
-).dropna()
 
 print("===== 有效订单销售额 =====")
 print(sales.sort_values().reset_index(drop=True))
-
 print("\n订单数量：", sales.count())
 print("最低销售额：", round(sales.min(), 2))
 print("最高销售额：", round(sales.max(), 2))
