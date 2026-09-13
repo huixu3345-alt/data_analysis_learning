@@ -1,0 +1,6 @@
+{
+  "model_sha256": "d266ffb052659184e2c1a6c688fbc98dcfce46978248765bbfc6129087a79266",
+  "started_at_utc": "2026-09-13T18:40:17.688676+00:00",
+  "state": "reserved_before_holdout_label_access",
+  "threshold": 0.4
+}

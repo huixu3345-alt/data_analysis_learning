@@ -1,0 +1,100 @@
+{
+  "capacity_diagnostic": {
+    "enforced_as_a_test_cap": false,
+    "test_reminders_all_eligible": 165,
+    "validation_teaching_limit": 150,
+    "within_150": false
+  },
+  "case_id": "week13_member_activity_simulated_v1",
+  "comparison_operator": ">=",
+  "completed_at_utc": "2026-09-13T18:40:17.720854+00:00",
+  "data_scope": "simulated_September_holdout_only",
+  "feature_columns": [
+    "past_active_days_7d",
+    "past_order_count_7d"
+  ],
+  "limitations": [
+    "Synthetic data, not measured production impact.",
+    "Unknown outcomes are excluded from outcome metrics, not from prediction eligibility.",
+    "150 is a validation teaching assumption; no test-time truncation or threshold tuning.",
+    "Subsequent test-feedback tuning would require a new independent evaluation set."
+  ],
+  "model_fitted_in_this_run": false,
+  "model_sha256": "d266ffb052659184e2c1a6c688fbc98dcfce46978248765bbfc6129087a79266",
+  "models": {
+    "logistic": {
+      "accuracy": 0.6802973977695167,
+      "confusion_matrix": [
+        [
+          73,
+          52
+        ],
+        [
+          34,
+          110
+        ]
+      ],
+      "evaluated_rows": 269,
+      "f1": 0.7189542483660131,
+      "flagged_evaluated": 162,
+      "fn": 34,
+      "fp": 52,
+      "precision": 0.6790123456790124,
+      "recall": 0.7638888888888888,
+      "roc_auc": 0.7583611111111112,
+      "tn": 73,
+      "tp": 110
+    },
+    "majority": {
+      "accuracy": 0.4646840148698885,
+      "confusion_matrix": [
+        [
+          125,
+          0
+        ],
+        [
+          144,
+          0
+        ]
+      ],
+      "evaluated_rows": 269,
+      "f1": 0.0,
+      "flagged_evaluated": 0,
+      "fn": 144,
+      "fp": 0,
+      "precision": null,
+      "recall": 0.0,
+      "roc_auc": 0.5,
+      "tn": 125,
+      "tp": 0
+    }
+  },
+  "population_counts": {
+    "actual_inactive_evaluated": 144,
+    "eligible_predictions": 276,
+    "eligible_unknown_outcomes": 7,
+    "excluded_disabled_rows": 24,
+    "known_outcomes_evaluated": 269,
+    "logistic_reminders_all_eligible": 165,
+    "raw_test_rows": 300
+  },
+  "positive_class": 1,
+  "sha256": {
+    "evaluation_rows.csv": "ab2f2a6d90aed1ab5b5c9d315474a01584cea2a3f81a2ff7426c6bab2f27982b",
+    "evaluator_source.py": "36235f8f5f55d2edc262c140a96ac4c7d6182669f6661f2099a3bdd968324eaf",
+    "test_features_raw.csv": "83e1c76156f9d556c154d64f3086c791633bcb44c359a35eabff6705b64e5281",
+    "test_labels_holdout.csv": "eab22d80e5c57959230191bed0610d5642ad4169c8a992856d56d1034e024d07",
+    "test_predictions.csv": "b900ebc8b1442d9abb47861bf041bfb89d6aae2d4fcc7505ca58ff7d237110f1"
+  },
+  "started_at_utc": "2026-09-13T18:40:17.688676+00:00",
+  "test_hash_provenance": "Test input hashes were recorded at this first evaluation; no claim of comparison against a pre-freeze test-data hash is made.",
+  "threshold": 0.4,
+  "threshold_tuned_in_this_run": false,
+  "versions": {
+    "joblib": "1.6.0",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "python": "3.13.14",
+    "scikit_learn": "1.9.0"
+  }
+}

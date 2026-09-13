@@ -1,0 +1,2 @@
+# Preserve exact bytes for frozen artifacts and recorded SHA-256 inputs.
+* -text

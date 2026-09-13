@@ -1,0 +1,61 @@
+{
+  "baseline_effective_parameters": {
+    "constant": null,
+    "random_state": null,
+    "strategy": "most_frequent"
+  },
+  "case_id": "week13_member_activity_simulated_v1",
+  "data_scope": "simulated_development_only",
+  "environment": {
+    "joblib": "1.6.0",
+    "numpy": "2.5.0",
+    "pandas": "3.0.3",
+    "python": "3.13.14",
+    "python_executable": "D:\\data_analysis_learning\\.venv\\Scripts\\python.exe",
+    "scikit_learn": "1.9.0"
+  },
+  "evaluation_performed": false,
+  "feature_dtypes": {
+    "past_active_days_7d": "int64",
+    "past_order_count_7d": "int64"
+  },
+  "fit_policy": "June/July training only; no validation refit",
+  "main_classes": [
+    0,
+    1
+  ],
+  "main_effective_parameters": {
+    "C": 1.0,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": 0.0,
+    "max_iter": 1000,
+    "n_jobs": null,
+    "penalty": "deprecated",
+    "random_state": null,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "sha256": {
+    "development_train.csv": "ac32f934cf859bc1f9b169fd4ee3684f1f16d10e618e77e316d30f82ee02a902",
+    "development_valid.csv": "d6a4dd8d9a3f6dc80da8fd41ea2ffe46ec5186cc1f2944b20953e93c1172f1c0",
+    "freeze_model.py": "c2d55ff81fe802e3e1cbb1077d3b1028f5ead7205c0fc7f51e4c66f32ad82503",
+    "frozen_plan.json": "247ad54e905ef84aaf6d429ff44f3b4bb0241bc95ec97ccb2c81eaa737b4dd66",
+    "models.joblib": "d266ffb052659184e2c1a6c688fbc98dcfce46978248765bbfc6129087a79266"
+  },
+  "test_files_opened": false,
+  "training_label_counts": {
+    "0": 285,
+    "1": 239
+  },
+  "training_rows": 524,
+  "validation_label_counts": {
+    "0": 133,
+    "1": 123
+  },
+  "validation_rows": 256
+}

@@ -1,0 +1,46 @@
+{
+  "activity_definition": "a day with at least one member activity event",
+  "feature_columns_for_model": [
+    "past_active_days_7d",
+    "past_order_count_7d"
+  ],
+  "files": {
+    "development_raw.csv": {
+      "rows": 900,
+      "sha256": "e15d3df87c027d34d569cd3ed243c5c0264fa4d6709963914a0e304252e954fe"
+    },
+    "test_features_raw.csv": {
+      "rows": 300,
+      "sha256": "83e1c76156f9d556c154d64f3086c791633bcb44c359a35eabff6705b64e5281"
+    },
+    "test_labels_holdout.csv": {
+      "rows": 300,
+      "sha256": "eab22d80e5c57959230191bed0610d5642ad4169c8a992856d56d1034e024d07"
+    }
+  },
+  "generator_version": "1.0",
+  "key_columns": [
+    "member_id",
+    "prediction_date"
+  ],
+  "label_observation_as_of": "2026-09-08",
+  "member_scope": "existing members observed across monthly snapshots",
+  "members_per_batch": 300,
+  "order_definition": "payment completed inside the past seven full days",
+  "row_grain": "one member at one prediction date",
+  "seed": 20260914,
+  "source": "SIMULATED classroom data; not real business evidence",
+  "split_by_prediction_date": {
+    "2026-06-01": "train",
+    "2026-07-01": "train",
+    "2026-08-01": "validation",
+    "2026-09-01": "test"
+  },
+  "status_mapping": {
+    "disabled": "exclude",
+    "valid": "eligible"
+  },
+  "target_rule": "future_active_days_7d == 0 -> 1; >= 1 -> 0; missing -> unknown",
+  "test_policy": "Do not use test labels for feature/model/threshold selection",
+  "unknown_outcome": "empty CSV field; exclude from supervised fitting/scoring"
+}
