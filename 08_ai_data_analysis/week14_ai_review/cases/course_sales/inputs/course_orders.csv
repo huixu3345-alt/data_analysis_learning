@@ -1,0 +1,9 @@
+﻿order_id,course_category,payment_status,paid_amount
+C1001,Python,已支付,1000
+C1002,Python,已支付,800
+C1003,SQL,已支付,600
+C1004,SQL,已支付,1200
+C1005,BI,已支付,1500
+C1006,BI,已支付,900
+C1007,Python,未支付,0
+C1008,SQL,未支付,0

@@ -1,0 +1,83 @@
+{
+  "purpose": "Week 14 session 5 / W14-I simulated classroom inputs",
+  "real_business_data": false,
+  "currency_unit": "CNY yuan",
+  "tables": {
+    "course_orders": {
+      "rows": 8,
+      "grain": "one order",
+      "schema": [
+        {
+          "cid": 0,
+          "name": "order_id",
+          "type": "TEXT",
+          "notnull": 1,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "course_category",
+          "type": "TEXT",
+          "notnull": 1,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "payment_status",
+          "type": "TEXT",
+          "notnull": 1,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "paid_amount",
+          "type": "REAL",
+          "notnull": 1,
+          "default": null,
+          "pk": 0
+        }
+      ]
+    },
+    "course_refunds": {
+      "rows": 6,
+      "grain": "one successful refund transaction",
+      "schema": [
+        {
+          "cid": 0,
+          "name": "refund_id",
+          "type": "TEXT",
+          "notnull": 1,
+          "default": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "order_id",
+          "type": "TEXT",
+          "notnull": 1,
+          "default": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "refund_amount",
+          "type": "REAL",
+          "notnull": 1,
+          "default": null,
+          "pk": 0
+        }
+      ]
+    }
+  },
+  "integrity_check": "ok",
+  "foreign_key_issues": [],
+  "files": {
+    "course_sales_review.db": "ae92137ec91154ce6b520bb4d723ac7f3387f8bdc4e65fcaa0645ecdca43a8e5",
+    "course_orders.csv": "0fa3753d96fc71f6ea931f9b4aabac8c0e723b42b16ed6f8d55d5c7a5248168d",
+    "course_refunds.csv": "7b86889bcc3926c85d29f20508e425d545db5f059642a55ac7fd0899840252ef"
+  },
+  "analysis_executed": false
+}

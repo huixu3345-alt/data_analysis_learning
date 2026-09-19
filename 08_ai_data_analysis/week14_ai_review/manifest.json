@@ -1,0 +1,287 @@
+{
+  "package": "Week 14 AI-assisted analysis review",
+  "prepared_on": "2026-09-19",
+  "simulated_data": true,
+  "currency_unit": "CNY yuan",
+  "learning_evidence": "Learner-run classroom screenshots; teacher-assisted corrections",
+  "packaged_analysis_rerun": false,
+  "packaging_checks": {
+    "byte_copy_hashes": "passed",
+    "python_ast_parse": 5,
+    "markdown_local_links": "passed",
+    "channel_sql_blocks_extracted": 4,
+    "channel_python_changes": "Path import and input path only"
+  },
+  "course_input_manifest_note": "analysis_executed=false records input-preparation time only",
+  "manifest_excluded_from_own_hash_list": true,
+  "files": [
+    {
+      "path": "cases/channel_sales/ai_draft.py",
+      "bytes": 380,
+      "sha256": "ac47f790ac3a0f860524ef78c8ba66fad7da9f896b83124114850a8c42e0f072",
+      "method": "assembled_text",
+      "source": "archive/week14_session3_pandas_review.md; only Path import and input path changed"
+    },
+    {
+      "path": "cases/channel_sales/ai_draft.sql",
+      "bytes": 215,
+      "sha256": "06bec3e77c7d49677fee137b3722efeb54aca04f31d4b5b313137438d72d4928",
+      "method": "assembled_text",
+      "source": "Verbatim SQL block from archive/week14_session2_sql_review.md"
+    },
+    {
+      "path": "cases/channel_sales/channel_review.py",
+      "bytes": 1032,
+      "sha256": "967311f0e0da045223367cc78c210b1d1ca10c061cc245b2bacc5c4ebee0d63a",
+      "method": "assembled_text",
+      "source": "archive/week14_session3_pandas_review.md; only Path import and input path changed"
+    },
+    {
+      "path": "cases/channel_sales/channel_summary.sql",
+      "bytes": 223,
+      "sha256": "0bb011f843760d14beb6ba930fc0fa336c533fdbd9143806102e6b74c43083ee",
+      "method": "assembled_text",
+      "source": "Verbatim SQL block from archive/week14_session2_sql_review.md"
+    },
+    {
+      "path": "cases/channel_sales/inputs/sales_clean_week12.csv",
+      "bytes": 2553,
+      "sha256": "43547d3bfbf5d38d16256e0425e99fae345315fa97db3680d6442613d63663bc",
+      "method": "byte_identical_copy",
+      "source": "Portfolio repository: 06_data_warehouse/week12_pipeline/outputs/sales_clean_week12.csv",
+      "source_sha256": "43547d3bfbf5d38d16256e0425e99fae345315fa97db3680d6442613d63663bc"
+    },
+    {
+      "path": "cases/channel_sales/inputs/sales_week12.db",
+      "bytes": 8192,
+      "sha256": "c38af61859402fdf340290d54dc33161afc51faa4cb0f156d0283914e1cd726c",
+      "method": "byte_identical_copy",
+      "source": "Portfolio repository: 06_data_warehouse/week12_pipeline/outputs/sales_week12.db",
+      "source_sha256": "c38af61859402fdf340290d54dc33161afc51faa4cb0f156d0283914e1cd726c"
+    },
+    {
+      "path": "cases/channel_sales/missing_dates.sql",
+      "bytes": 111,
+      "sha256": "e86f2fca28b39d6417b217012e9c2189c622e18f99ffb05440bcc0be076cc71c",
+      "method": "assembled_text",
+      "source": "Verbatim SQL block from archive/week14_session2_sql_review.md"
+    },
+    {
+      "path": "cases/channel_sales/overall_check.sql",
+      "bytes": 191,
+      "sha256": "c4a66620369605f42fdfae058df84c48d95a1ac3d6e12797dc9adb973bcde448",
+      "method": "assembled_text",
+      "source": "Verbatim SQL block from archive/week14_session2_sql_review.md"
+    },
+    {
+      "path": "cases/channel_sales/run_query.py",
+      "bytes": 696,
+      "sha256": "9c8fb1c80108ba5519b6f8b9689ff435448c350bc5a02196d291254e3e10837d",
+      "method": "assembled_text",
+      "source": "Teacher course run_query.py; default SQL and database filename adapted"
+    },
+    {
+      "path": "cases/course_sales/ai_draft.sql",
+      "bytes": 433,
+      "sha256": "aff86040d3f7854b6b7c7acf749cb75b77ae7a39a466fb83a0ee05c3b4385144",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/week14_session5/ai_draft.sql",
+      "source_sha256": "aff86040d3f7854b6b7c7acf749cb75b77ae7a39a466fb83a0ee05c3b4385144"
+    },
+    {
+      "path": "cases/course_sales/category_summary.sql",
+      "bytes": 509,
+      "sha256": "893e23a1a0f42dcaffa4d063afac1a50573474f1ab2ace45e4cf23f78e78c0bf",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/week14_session5/category_summary.sql",
+      "source_sha256": "893e23a1a0f42dcaffa4d063afac1a50573474f1ab2ace45e4cf23f78e78c0bf"
+    },
+    {
+      "path": "cases/course_sales/inputs/course_orders.csv",
+      "bytes": 262,
+      "sha256": "0fa3753d96fc71f6ea931f9b4aabac8c0e723b42b16ed6f8d55d5c7a5248168d",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/week14_session5/inputs/course_orders.csv",
+      "source_sha256": "0fa3753d96fc71f6ea931f9b4aabac8c0e723b42b16ed6f8d55d5c7a5248168d"
+    },
+    {
+      "path": "cases/course_sales/inputs/course_refunds.csv",
+      "bytes": 139,
+      "sha256": "7b86889bcc3926c85d29f20508e425d545db5f059642a55ac7fd0899840252ef",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/week14_session5/inputs/course_refunds.csv",
+      "source_sha256": "7b86889bcc3926c85d29f20508e425d545db5f059642a55ac7fd0899840252ef"
+    },
+    {
+      "path": "cases/course_sales/inputs/course_sales_review.db",
+      "bytes": 20480,
+      "sha256": "ae92137ec91154ce6b520bb4d723ac7f3387f8bdc4e65fcaa0645ecdca43a8e5",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/week14_session5/inputs/course_sales_review.db",
+      "source_sha256": "ae92137ec91154ce6b520bb4d723ac7f3387f8bdc4e65fcaa0645ecdca43a8e5"
+    },
+    {
+      "path": "cases/course_sales/inputs/create_fixture.py",
+      "bytes": 3830,
+      "sha256": "9e4d631f86a4c15c83f559319403e033d90267973fe6e96b36ff1fd753e916ba",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/week14_session5/inputs/create_fixture.py",
+      "source_sha256": "9e4d631f86a4c15c83f559319403e033d90267973fe6e96b36ff1fd753e916ba"
+    },
+    {
+      "path": "cases/course_sales/inputs/manifest.json",
+      "bytes": 2031,
+      "sha256": "1847fbc7178f0dd15e14e02730bb67aba3c3ca453387ad3709250ce6407f8e31",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/week14_session5/inputs/manifest.json",
+      "source_sha256": "1847fbc7178f0dd15e14e02730bb67aba3c3ca453387ad3709250ce6407f8e31"
+    },
+    {
+      "path": "cases/course_sales/order_baseline.sql",
+      "bytes": 166,
+      "sha256": "353f2b187ab20a5264caa204d6300223ff73cb7fe9649730733d70cf0d6682fa",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/week14_session5/order_baseline.sql",
+      "source_sha256": "353f2b187ab20a5264caa204d6300223ff73cb7fe9649730733d70cf0d6682fa"
+    },
+    {
+      "path": "cases/course_sales/refund_baseline.sql",
+      "bytes": 183,
+      "sha256": "cf8be7c2004c55ee468cc4d8da0175516cb43f74576a73bbfa44c08fd65bfc09",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/week14_session5/refund_baseline.sql",
+      "source_sha256": "cf8be7c2004c55ee468cc4d8da0175516cb43f74576a73bbfa44c08fd65bfc09"
+    },
+    {
+      "path": "cases/course_sales/refund_by_order.sql",
+      "bytes": 116,
+      "sha256": "e39249ef1bfbd4937533496ed2ff39d66e804c32351f54a204e9b84f8c574e01",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/week14_session5/refund_by_order.sql",
+      "source_sha256": "e39249ef1bfbd4937533496ed2ff39d66e804c32351f54a204e9b84f8c574e01"
+    },
+    {
+      "path": "cases/course_sales/run_query.py",
+      "bytes": 678,
+      "sha256": "32d6e7f4eaf4720a01c4927afaeca4185a42e73e50f5e31532ef0057e7f2de0e",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/week14_session5/run_query.py",
+      "source_sha256": "32d6e7f4eaf4720a01c4927afaeca4185a42e73e50f5e31532ef0057e7f2de0e"
+    },
+    {
+      "path": "docs/ai_workflow.md",
+      "bytes": 1913,
+      "sha256": "63eb4f5aca91d9c68191528a471964a9f00f037b9cc8e8c28abed6c56f3e8e7d",
+      "method": "assembled_text",
+      "source": "Archived workflow; delivery status and relative link updated"
+    },
+    {
+      "path": "docs/requirements.md",
+      "bytes": 2849,
+      "sha256": "2a277106cdbc743f052bc06e65bb71a5837e8fa8b7b833dc50f7b29aa37c4d48",
+      "method": "assembled_text",
+      "source": "Teacher packaging from verified classroom records"
+    },
+    {
+      "path": "docs/review_report.md",
+      "bytes": 6472,
+      "sha256": "3150674301fad0f90a5859f111eea0078ec3d4628e2beb47567f188d9d75fb0c",
+      "method": "assembled_text",
+      "source": "Teacher packaging from verified classroom records"
+    },
+    {
+      "path": "evidence/channel_pandas/channel_overall_reconciliation.png",
+      "bytes": 34645,
+      "sha256": "e2db901cbc26085190baedf49afcbe17b5edecbc40ae978150d8dd0ef95b1a2b",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/evidence/week14_session3/channel_overall_reconciliation.png",
+      "source_sha256": "e2db901cbc26085190baedf49afcbe17b5edecbc40ae978150d8dd0ef95b1a2b"
+    },
+    {
+      "path": "evidence/channel_pandas/filter_fix_and_channel_summary.png",
+      "bytes": 29635,
+      "sha256": "367032c2a156b8bf2baed7c6bbd728309e66a9c71ecf3b4bed62b3030b4bfa90",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/evidence/week14_session3/filter_fix_and_channel_summary.png",
+      "source_sha256": "367032c2a156b8bf2baed7c6bbd728309e66a9c71ecf3b4bed62b3030b4bfa90"
+    },
+    {
+      "path": "evidence/channel_sql/channel_summary.png",
+      "bytes": 67583,
+      "sha256": "1118b65c66d033377d10ce2847a2d83290d916ccc8db66afcd77f8029e959548",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/evidence/week14_session2/channel_summary.png",
+      "source_sha256": "1118b65c66d033377d10ce2847a2d83290d916ccc8db66afcd77f8029e959548"
+    },
+    {
+      "path": "evidence/channel_sql/missing_valid_orders.png",
+      "bytes": 19436,
+      "sha256": "97cfb4d27111fd70d1d5552d2717cb31b2030200308a7f5dbcc05c83aed18915",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/evidence/week14_session2/missing_valid_orders.png",
+      "source_sha256": "97cfb4d27111fd70d1d5552d2717cb31b2030200308a7f5dbcc05c83aed18915"
+    },
+    {
+      "path": "evidence/channel_sql/overall_check.png",
+      "bytes": 13784,
+      "sha256": "5bfb646d1fe973edc973b990240ccb8187f7ec35a3df467d028862d136de870d",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/evidence/week14_session2/overall_check.png",
+      "source_sha256": "5bfb646d1fe973edc973b990240ccb8187f7ec35a3df467d028862d136de870d"
+    },
+    {
+      "path": "evidence/course_sql/category_summary_result.png",
+      "bytes": 27350,
+      "sha256": "9a219b5d41796f12ddd7f0d081f37be002351d84195e310e03993fc7c6e590cf",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/evidence/week14_session5/category_summary_result.png",
+      "source_sha256": "9a219b5d41796f12ddd7f0d081f37be002351d84195e310e03993fc7c6e590cf"
+    },
+    {
+      "path": "evidence/course_sql/original_table_baselines.png",
+      "bytes": 21775,
+      "sha256": "658f6ed8c1609121672f1c4b9ad9a8e74adb37b42f4e6b2d47eb4be30392e7e7",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/evidence/week14_session5/original_table_baselines.png",
+      "source_sha256": "658f6ed8c1609121672f1c4b9ad9a8e74adb37b42f4e6b2d47eb4be30392e7e7"
+    },
+    {
+      "path": "evidence/course_sql/refund_by_order_result.png",
+      "bytes": 17260,
+      "sha256": "1a52c5299b9d3b5afe84010260873aa28f4b1d84ef4774687a2dddf6ee89d08b",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/evidence/week14_session5/refund_by_order_result.png",
+      "source_sha256": "1a52c5299b9d3b5afe84010260873aa28f4b1d84ef4774687a2dddf6ee89d08b"
+    },
+    {
+      "path": "evidence/report_review/reviewed_chart.png",
+      "bytes": 12165,
+      "sha256": "4a21acba82580aaf20b6d71a6acb1f85337d3c9574c618da98336293ec817218",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/evidence/week14_session4/reviewed_chart.png",
+      "source_sha256": "4a21acba82580aaf20b6d71a6acb1f85337d3c9574c618da98336293ec817218"
+    },
+    {
+      "path": "evidence/report_review/teacher_chart_draft.png",
+      "bytes": 12924,
+      "sha256": "016b5421c7d49ecaca2fea3e8972933b0f8bac54fc5e2b1305263887a547307d",
+      "method": "byte_identical_copy",
+      "source": "Teaching archive: archive/evidence/week14_session4/teacher_chart_draft.png",
+      "source_sha256": "016b5421c7d49ecaca2fea3e8972933b0f8bac54fc5e2b1305263887a547307d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3911,
+      "sha256": "31ac980fa0fecb30365f6f2a065a6dd8a45b4dde7e065a70491da62454c435f9",
+      "method": "assembled_text",
+      "source": "Teacher packaging from verified classroom records"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 76,
+      "sha256": "d65da1342869cc63cc30f2870ea4c4a088bdb5d242a61090f9fbf51b7bf5a56c",
+      "method": "assembled_text",
+      "source": "Teacher packaging from verified classroom records"
+    }
+  ]
+}

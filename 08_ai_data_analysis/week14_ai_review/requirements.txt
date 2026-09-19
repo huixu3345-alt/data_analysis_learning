@@ -1,0 +1,2 @@
+# pandas version used in the learner's recorded environment
+pandas==2.3.3
